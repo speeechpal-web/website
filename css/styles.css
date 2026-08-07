@@ -1260,8 +1260,7 @@ a {
   }
 
   .hero-visual {
-    min-height: 420px;
-    order: -1;
+    display: none;
   }
 
   .hero-copy {
