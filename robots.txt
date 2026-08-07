@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://speechpal.app/sitemap.xml
+Sitemap: https://speeechpal.com/sitemap.xml

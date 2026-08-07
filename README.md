@@ -7,7 +7,7 @@ Static site for Netlify.
 1. Go to [Netlify Drop](https://app.netlify.com/drop) and drag the `website` folder, **or** connect this folder via Git.
 2. In Netlify → Domain settings, add your custom domain.
 3. In Squarespace DNS, add the A / CNAME records Netlify shows.
-4. Replace `https://speechpal.app` in meta tags, `sitemap.xml`, and `robots.txt` if your domain is different.
+4. Replace `https://speeechpal.com` in meta tags, `sitemap.xml`, and `robots.txt` if your domain is different.
 5. Paste your real App Store URL into the Download buttons on `index.html`.
 
 ## Add a blog post
