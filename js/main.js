@@ -41,6 +41,24 @@
     });
   }
 
+  const compareNav = document.querySelector(".nav-compare");
+  const compareBtn = document.querySelector(".nav-compare-btn");
+  if (compareNav && compareBtn) {
+    const setCompareOpen = (open) => {
+      compareNav.classList.toggle("is-open", open);
+      compareBtn.setAttribute("aria-expanded", open ? "true" : "false");
+    };
+    compareBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      setCompareOpen(!compareNav.classList.contains("is-open"));
+    });
+    compareNav.addEventListener("click", (e) => e.stopPropagation());
+    document.addEventListener("click", () => setCompareOpen(false));
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") setCompareOpen(false);
+    });
+  }
+
   const reveals = document.querySelectorAll(".reveal");
   if ("IntersectionObserver" in window) {
     const io = new IntersectionObserver(

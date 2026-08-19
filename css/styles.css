@@ -149,6 +149,61 @@ a {
   background: #2a3344;
 }
 
+.nav-compare {
+  position: relative;
+}
+
+.nav-compare-btn {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  font: inherit;
+  font-weight: 560;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.nav-compare-btn:hover,
+.nav-compare.is-open .nav-compare-btn,
+.nav-compare-btn[aria-current="page"] {
+  color: var(--ink);
+}
+
+.nav-compare-menu {
+  position: absolute;
+  top: calc(100% + 0.6rem);
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 14.5rem;
+  padding: 0.45rem;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  z-index: 60;
+}
+
+.nav-compare.is-open .nav-compare-menu {
+  display: flex;
+}
+
+.nav-compare-menu a {
+  padding: 0.75rem 0.9rem;
+  border-radius: 0.8rem;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.nav-compare-menu a:hover,
+.nav-compare-menu a[aria-current="page"] {
+  background: #fff6db;
+}
+
 .nav-toggle {
   display: none;
   border: 0;
@@ -1425,6 +1480,19 @@ a {
 
   .nav-links.open {
     display: flex;
+  }
+
+  .nav-compare-menu {
+    position: static;
+    transform: none;
+    left: auto;
+    min-width: 0;
+    margin-top: 0.25rem;
+    padding: 0.2rem 0 0.2rem 0.35rem;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
   }
 
   .nav-links a {
