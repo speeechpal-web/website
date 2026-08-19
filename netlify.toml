@@ -17,3 +17,13 @@
   from = "/blog"
   to = "/blog/"
   status = 301
+
+[[redirects]]
+  from = "/social-confidence.html"
+  to = "/social-confidence"
+  status = 301
+
+[[redirects]]
+  from = "/articulation-coach.html"
+  to = "/articulation-coach"
+  status = 301
