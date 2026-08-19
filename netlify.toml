@@ -27,3 +27,13 @@
   from = "/articulation-coach.html"
   to = "/articulation-coach"
   status = 301
+
+[[redirects]]
+  from = "/compare-social.html"
+  to = "/compare-social"
+  status = 301
+
+[[redirects]]
+  from = "/compare-articulation.html"
+  to = "/compare-articulation"
+  status = 301

@@ -6,6 +6,21 @@
 
   if (year) year.textContent = String(new Date().getFullYear());
 
+  const compareHashes = {
+    "#vs-gleam": "/compare-social#vs-gleam",
+    "#vs-orai": "/compare-articulation#vs-orai",
+    "#vs-speeko": "/compare-articulation#vs-speeko",
+    "#vs-yoodli": "/compare-articulation#vs-yoodli",
+    "#vs-wellspoken": "/compare-articulation#vs-wellspoken",
+    "#vs-elsa": "/compare-articulation#vs-elsa",
+  };
+  const onCompareIndex =
+    /\/competitors(?:\.html)?\/?$/.test(window.location.pathname);
+  if (onCompareIndex && compareHashes[window.location.hash]) {
+    window.location.replace(compareHashes[window.location.hash]);
+    return;
+  }
+
   const onScroll = () => {
     if (!header) return;
     header.classList.toggle("is-scrolled", window.scrollY > 8);

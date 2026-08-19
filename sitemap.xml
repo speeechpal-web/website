@@ -16,6 +16,16 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://speeechpal.com/compare-social</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://speeechpal.com/compare-articulation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://speeechpal.com/competitors.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
