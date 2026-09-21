@@ -19,21 +19,54 @@
   status = 301
 
 [[redirects]]
-  from = "/social-confidence.html"
-  to = "/social-confidence"
-  status = 301
-
-[[redirects]]
-  from = "/articulation-coach.html"
-  to = "/articulation-coach"
-  status = 301
-
-[[redirects]]
   from = "/compare-social.html"
   to = "/compare-social"
   status = 301
 
 [[redirects]]
-  from = "/compare-articulation.html"
-  to = "/compare-articulation"
+  from = "/social-confidence"
+  to = "/"
   status = 301
+  force = true
+
+[[redirects]]
+  from = "/social-confidence.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articulation-coach"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articulation-coach.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/compare-articulation"
+  to = "/compare-social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/compare-articulation.html"
+  to = "/compare-social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/competitors.html"
+  to = "/compare-social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/how-to-speak-more-clearly.html"
+  to = "/blog/"
+  status = 301
+  force = true

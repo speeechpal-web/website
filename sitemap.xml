@@ -6,27 +6,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://speeechpal.com/social-confidence</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://speeechpal.com/articulation-coach</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
     <loc>https://speeechpal.com/compare-social</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://speeechpal.com/compare-articulation</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://speeechpal.com/competitors.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -34,11 +14,6 @@
     <loc>https://speeechpal.com/blog/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://speeechpal.com/blog/how-to-speak-more-clearly.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://speeechpal.com/blog/how-to-get-better-at-small-talk.html</loc>
